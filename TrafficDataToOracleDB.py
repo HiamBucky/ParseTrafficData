@@ -107,7 +107,18 @@ def JsonFileToOracle():
             print(datetime.datetime.now().strftime("%Y-%m-%d %H:%M"))
             print('done') 
 
+def executeSomething():
+    try:
+        print(datetime.now())
+        JsonOracle.JsonToOracle()  
+        time.sleep(850)
+    except:
+        print("An exception occurred")
+      
+    
 
+while True:
+    executeSomething()   
     
   
             
