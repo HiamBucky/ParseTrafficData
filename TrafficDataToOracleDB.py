@@ -68,7 +68,7 @@ def JsonFileToOracle():
     c.execute('select LINK_TIMESTAMP_ID from TRAFFIC_CONGESTION') # use triple quotes if you want to spread your query across multiple lines
 
     
-    path_to_json = 'C:/Users/Mangekyo/Documents/Python Scripts/Json_Tests/jsonfiles/'
+    path_to_json = '/Python Scripts/Json_Tests/jsonfiles/' # use our link where the files are stored
     json_files = [pos_json for pos_json in os.listdir(path_to_json) if pos_json.endswith('.txt')]
     print(json_files[1])  # for me this prints ['foo.json']
     
