@@ -18,7 +18,7 @@ from datetime import datetime, timedelta
 
 def JsonToOracle():
     dsn_tns = cx_Oracle.makedsn('localhost', '1521', service_name='orcl3') #if needed, place an 'r' before any parameter in order to address any special character such as '\'.
-    conn = cx_Oracle.connect(user='system', password='26282628', dsn=dsn_tns) #if needed, place an 'r' before any parameter in order to address any special character such as '\'. For example, if your user name contains '\', you'll need to place 'r' before the user name: user=r'User Name'
+    conn = cx_Oracle.connect(user='system', password='putUrCodeHere', dsn=dsn_tns) #if needed, place an 'r' before any parameter in order to address any special character such as '\'. For example, if your user name contains '\', you'll need to place 'r' before the user name: user=r'User Name'
     
     c = conn.cursor()
     c.execute('select LINK_TIMESTAMP_ID from TRAFFIC_CONGESTION') # use triple quotes if you want to spread your query across multiple lines
