@@ -1,5 +1,6 @@
 # ParseTrafficData
 Part of MSc Thesis Big Data Mining for Smart Cities
+
 Traffic Data for the city of Thessaloniki Greece
 
 -Use the sql file for crating the tables and do the selection part
