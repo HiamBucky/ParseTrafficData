@@ -1,7 +1,7 @@
 # ParseTrafficData
-Part of Paper Big Data Mining for Smart Cities: Predicting Traffic Congestion using Classification
+Part of Paper: Big Data Mining for Smart Cities: Predicting Traffic Congestion using Classification
 
-Part of MSc Thesis Big Data Mining for Smart Cities
+Part of MSc Thesis: Big Data Mining for Smart Cities https://repository.ihu.edu.gr/xmlui/handle/11544/29638
 
 Traffic Data for the city of Thessaloniki Greece
 
